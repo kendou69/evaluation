@@ -1,0 +1,97 @@
+.todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-list h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .todo-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .todo-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .todo-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-form button.submit {
+    background-color: #28a745; /* Bouton "Valider" en vert */
+    color: white;
+  }
+  
+  .todo-form button.cancel {
+    background-color: #dc3545; /* Bouton "Annuler" en rouge */
+    margin-left: 5px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-item span {
+    margin-left: 10px;
+    color: black;
+  }
+  
+  .todo-item button {
+    margin-left: auto;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .todo-item button.submit {
+    background-color: #28a745; /* Bouton "Valider" en vert */
+    color: white;
+  }
+  
+  .todo-item button.cancel {
+    background-color: #bd1f1f; /* Bouton "Valider" en vert */
+    color: white;
+  }
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item.completed span {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .todo-item.completed button {
+    background-color: #dc3545;
+  }
+  
+  .todo-item button.edit {
+    background-color: #ff9800; /* Bouton "Modifier" en orange */
+  }
+  
+  .todo-item button.delete {
+    background-color: #dc3545; /* Bouton "Supprimer" en rouge */
+  }
+  

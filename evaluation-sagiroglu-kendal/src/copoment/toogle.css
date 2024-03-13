@@ -1,0 +1,24 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .word-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .word-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .word-square {
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
